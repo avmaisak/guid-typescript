@@ -6,13 +6,13 @@ Guid Typescript is a library that lets you generate guid code
 ### Installation
 
 ```
-npm i guid-typescript --save
+npm i typescript-guid --save
 ```
 
 ### Basic usage
 
 ```typescript
-import { Guid } from "guid-typescript";
+import { Guid } from "typescript-guid";
 
 export class Example {
     public id: Guid;
@@ -35,5 +35,4 @@ export class Example {
 | isEmpty ( ): boolean | Validate if a guid is empty  | OK | Ready |
 | toString ( ): string | Parse a guid instance to string format  | OK | Ready |
 | toJSON ( ): any | Parse to JSON format  | OK | Ready |
-
 
